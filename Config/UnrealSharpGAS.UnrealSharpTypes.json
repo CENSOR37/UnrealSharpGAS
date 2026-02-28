@@ -1,0 +1,14 @@
+{
+    "Structs": {
+        "NativelyTranslatableTypes": [
+            {
+                "Name": "FGameplayEffectContextHandle",
+                "HasDestructor": false
+            },
+			{
+				"Name": "FGameplayEffectContext",
+                "HasDestructor": false
+			}
+        ]
+    }
+}

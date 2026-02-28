@@ -62,8 +62,7 @@ void UCSGameplayAttributesGlueGenerator::ProcessGameplayAttributes()
 
 	UE_LOG(LogUnrealSharpGASEditor, Log, TEXT("CSGameplayAttributesGlueGenerator: Saving GameplayAttributes.cs"));
 	
-	FString PluginGlueFolder = FPaths::Combine(GetPluginGlueFolder(UE_PLUGIN_NAME), TEXT("RuntimeGlue"));
-	SaveRuntimeGlue(ScriptBuilder, TEXT("GameplayAttributes"), &PluginGlueFolder);
+	SaveRuntimeGlue(ScriptBuilder, TEXT("GameplayAttributes"));
 }
 
 void UCSGameplayAttributesGlueGenerator::FindAllAttributeSetClasses(TArray<UClass*>& OutAttributeSetClasses)

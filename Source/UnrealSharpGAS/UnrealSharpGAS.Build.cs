@@ -11,7 +11,8 @@ public class UnrealSharpGAS : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				"Core", 
+				"GameplayAbilities",
 			}
 			);
 			
@@ -23,10 +24,10 @@ public class UnrealSharpGAS : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"GameplayAbilities",
 				"GameplayTags",
 				"GameplayTasks", 
 				"UnrealSharpCore",
+				"UnrealSharpBinds"
 			}
 			);
 		
